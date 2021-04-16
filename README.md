@@ -64,10 +64,13 @@ account_from = priv_key_to_account(BTCTEST, coins[BTCTEST][0]['privkey'])
 account_to = coins[BTCTEST][1]['address']
 send_tx(BTCTEST, account_from, account_to, '0.00055')
 ```
-![](Images/BTCTEST_TX.png)
-![](Images/BTCTEST_TX_CONFIRMATION.png)
+<img src="Images/BTCTEST_TX.png" width="400" height="200"/>
+<br><br>
+<img src="Images/BTCTEST_TX_CONFIRMATION.png" width="400" height="200"/>
 
 ### ETH Transaction
 Was not able to succesfully perform ETH test transaction as I have been leveraging my company's corporate laptop for this class and our Crowdstrike security software has been warning me about malicious activity and finally blocked and wiped everything related to my local ETH blockchain. Had to recreate an environment for web3 and bit packages, but still blocked to no avail. 
-![](Images/ETH_DENIAL.png)
-![](Images/web3_denial.png)
+
+<img src="Images/ETH_DENIAL.png" width="400" height="200"/>
+<br><br>
+<img src="Images/web3_denial.png" width="400" height="200"/>
